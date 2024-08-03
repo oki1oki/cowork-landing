@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "General Sans";
+    src: url("/fonts/GeneralSans-Bold.otf");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "General Sans";
+    src: url("/fonts/GeneralSans-Semibold.otf");
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: "General Sans";
+    src: url("/fonts/GeneralSans-Medium.otf");
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "General Sans";
+    src: url("/fonts/GeneralSans-Regular.otf");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Neue Regrade";
+    src: url("/fonts/NeueRegrade-Bold.otf");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "Neue Regrade";
+    src: url("/fonts/NeueRegrade-Semibold.otf");
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: "Neue Regrade";
+    src: url("/fonts/NeueRegrade-Medium.otf") format("otf");
+    font-weight: 500;
+  }
+}
+.container {
+  @apply mx-auto max-w-[1408px] sm:max-w-[358px];
+}
+
+.small {
+  @apply leading-[180%] text-[14px];
+}
+
+.subtitle {
+  @apply text-[12px] font-semibold leading-[150%];
+}
+
+.subheading {
+  font-family: "Neue Regrade";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.big-title {
+  font-family: "Neue Regrade";
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.title {
+  font-family: "Neue Regrade";
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.mini-title {
+  font-family: "Neue Regrade";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+.paragraph {
+  line-height: 150%;
+  font-weight: 500;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dbdadd;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cac8ce;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+
+  .big-title {
+    font-size: 86px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 358px;
+  }
+
+  .big-title {
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  .title {
+    font-family: "Neue Regrade";
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 140%;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+}
+
+.btn-animate {
+  @apply transition-all;
+}
+
+.btn-animate:active {
+  scale: 0.97;
+}
+
+@media (hover: hover) {
+  .btn-animate:hover {
+    scale: 0.97;
+  }
+}
