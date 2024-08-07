@@ -31,3 +31,43 @@ export const advantegeData = [
       "Whether you prefer the flexibility of a hot desk or the exclusivity of a private office, Cowork offers tailored solutions to suit every working style.",
   },
 ];
+
+export const reviewsData = [
+  {
+    img: "/images/person-1.jpg",
+    name: "Liam Brown",
+    job: "Software Engineer, TechStartup Innovations",
+    text: "The 24/7 access and secure facilities have been incredibly convenient for my team's flexible schedules. We love the coworking space!",
+    bg: 1,
+  },
+  {
+    img: "/images/person-2.jpg",
+    name: "Michael Rodriguez",
+    job: "Creative Director, DesignCraft Studio",
+    text: "The aesthetics of Cowork are inspiring. The attention to detail in the design creates an atmosphere that sparks creativity. It's a place where ideas flow effortlessly, and collaboration happens organically.",
+    bg: 0,
+  },
+  {
+    img: "/images/person-3.jpg",
+    name: "Michael Thompson",
+    job: "Graphic Designer, DesignCo",
+    text: "As a freelance designer, I was getting tired of working from home or coffee shops. The coworking space has provided me with a productive and professional environment to focus on my work.",
+    bg: 1,
+    mt: "mt-[41px]",
+  },
+  {
+    img: "/images/person-4.jpg",
+    name: "David Wilson",
+    job: "Project Manager, SoftwareSolutions LLC",
+    text: "The coworking space has been a wonderful resource for my team. The open floor plan and dedicated private offices allow us to collaborate and concentrate as needed.",
+    bg: 0,
+    mt: "mt-[-32px]",
+  },
+  {
+    img: "/images/person-5.jpg",
+    name: "Alex Nguyens",
+    job: "Marketing Consultant, Maverick Marketing",
+    text: "The flexible membership options and amenities like high-speed internet, printers, and meeting rooms have made this coworking space a perfect fit for my small business.",
+    bg: 1,
+  },
+];

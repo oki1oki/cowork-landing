@@ -4,7 +4,7 @@ import { Container } from "./Container";
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className="my-8">
       <Container>
         <div className="rounded-[32px] bg-black py-12 px-8 sm:py-8 mb-8 sm:rounded-[24px] flex gap-32 lg:gap-10 md:gap-4 sm:flex-col sm:items-center sm:text-center text-white  justify-between">
           <div className="max-w-[500px] lg:max-w-[350px] md:w-[250px]">
@@ -30,7 +30,7 @@ export const Footer = () => {
               consent to receive updates from our company.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-10 lg:gap-6 *:min-w-[212px] lg:*:min-w-[100px] md:*:w-[50px] sm:grid-cols-1 ">
+          <div className="grid grid-cols-3 gap-10 lg:gap-6 *:min-w-[212px] lg:*:min-w-[100px] md:*:w-[50px] sm:grid-cols-1 sm:text-nowrap">
             <div>
               <h4 className="subtitle mb-4 sm:mb-2">EXPLORE MORE</h4>
               <ul className="small">
@@ -49,7 +49,7 @@ export const Footer = () => {
               <h4 className="subtitle mb-4 sm:mb-2">STAY CONNECTED</h4>
               <ul className="small cursor-pointer">
                 <li className="hover:opacity-70">Subscribe</li>
-                <li className="hover:opacity-70 sm:text-nowrap leading-normal">
+                <li className="hover:opacity-70 leading-normal">
                   Member Stories
                 </li>
                 <li className="hover:opacity-70">Locations</li>

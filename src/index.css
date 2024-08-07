@@ -41,12 +41,12 @@
 
   @font-face {
     font-family: "Neue Regrade";
-    src: url("/fonts/NeueRegrade-Medium.otf") format("otf");
+    src: url("/fonts/NeueRegrade-Medium.otf");
     font-weight: 500;
   }
 }
 .container {
-  @apply mx-auto max-w-[1408px] sm:max-w-[358px];
+  @apply mx-auto px-4 max-w-[1392px];
 }
 
 .small {
@@ -108,27 +108,13 @@
   background: #cac8ce;
 }
 
-@media (max-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
 @media (max-width: 768px) {
-  .container {
-    max-width: 576px;
-  }
-
   .big-title {
-    font-size: 86px;
+    font-size: 66px;
   }
 }
 
-@media (max-width: 576px) {
-  .container {
-    max-width: 358px;
-  }
-
+@media (max-width: 480px) {
   .big-title {
     font-size: 48px;
     line-height: 120%;

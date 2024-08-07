@@ -5,9 +5,9 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import Home from "./shared/components/shared/Home.tsx";
+import Home from "./shared/components/pages/Home.tsx";
 import "./index.css";
-import { NotFound } from "./shared/components/shared/NotFound.tsx";
+import { NotFound } from "./shared/components/pages/NotFound.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
