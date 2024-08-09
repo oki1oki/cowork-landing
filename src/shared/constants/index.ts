@@ -71,3 +71,24 @@ export const reviewsData = [
     bg: 1,
   },
 ];
+
+export const blogData = [
+  {
+    title: "Navigating the Future: Trends in Modern Coworking Spaces",
+    img: "/images/blog1.jpg",
+    time: 7,
+    category: "Trending",
+  },
+  {
+    title: "Mastering Productivity: Tips from Cowork's High Achievers",
+    img: "/images/blog2.jpg",
+    time: 5,
+    category: "Productivity",
+  },
+  {
+    title: "Tech Talk: The Backbone of Cowork's Seamless Experience",
+    img: "/images/blog3.jpg",
+    time: 10,
+    category: "Talk",
+  },
+];

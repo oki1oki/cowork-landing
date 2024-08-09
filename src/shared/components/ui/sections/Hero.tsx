@@ -45,7 +45,7 @@ export const Hero = () => {
             </div>
           </div>
           <motion.div
-            className="h-full"
+            className="w-full"
             custom={4}
             variants={scaleAnimation}
             viewport={{ amount: 0.6 }}

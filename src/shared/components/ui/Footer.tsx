@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { notify } from "../../lib/utils";
 import { Container } from "./Container";
 
 export const Footer = () => {
@@ -12,19 +11,19 @@ export const Footer = () => {
             <p className="mt-4 small">
               Join our newsletter to stay up to date on features and releases.
             </p>
-            <div className="my-6 flex gap-6 md:flex-col sm:flex-col ">
+            <form className="my-6 flex gap-6 md:flex-col sm:flex-col ">
               <input
                 type="email"
                 placeholder="Enter your email"
                 className="bg-transparent border-b outline-none p-3 min-w-[350px] lg:min-w-10 sm:min-w-full"
               />
               <button
+                type="button"
                 className="bg-white text-black rounded-full px-6 py-3 font-semibold btn-animate"
-                onClick={() => notify("Success!")}
               >
                 Subscribe
               </button>
-            </div>
+            </form>
             <p className="small">
               By subscribing you agree to with our Privacy Policy and provide
               consent to receive updates from our company.

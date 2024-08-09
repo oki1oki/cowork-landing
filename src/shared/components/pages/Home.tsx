@@ -7,8 +7,10 @@ import {
   Statistics,
   Tour,
   CallToAction,
-} from "../ui/home";
-import { Reviews } from "../ui/home/Reviews";
+  Reviews,
+  FAQ,
+  BlogPreview,
+} from "../ui/sections";
 
 const Home = () => (
   <>
@@ -19,7 +21,9 @@ const Home = () => (
       <Tour />
       <Statistics />
       <Reviews />
+      <FAQ />
       <CallToAction />
+      <BlogPreview />
     </Layout>
     <Toaster />
   </>
